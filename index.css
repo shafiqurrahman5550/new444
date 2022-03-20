@@ -1,0 +1,58 @@
+body{
+    background: url("Image/gym-1.jpg") fixed;
+    /* width: 100%; */
+}
+/* for left side of header  */
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+top: 20px;
+left: 12px;
+position: absolute;
+}
+img{
+    height: 60px;
+    width: 100px;
+    /* background: royalblue; */
+}
+/* for mid of header section  */
+.mid{
+    display: block;
+    margin: 20px auto;
+    width: 33%;
+}
+.nav{
+    display: inline-block;
+}
+.nav ul{
+    display: inline-block;
+}
+.nav ul li{
+    display: inline-block;
+    /* text-align: center; */
+    padding: 6px 6px;
+    background-color: rgb(238, 188, 144);
+    border-radius: 6px;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 8px 12px;
+}
+/* for right side of header  */
+.right{
+    display: inline-block;
+    top: 20px;
+    right: 12px;
+    /* border: 2px solid red; */
+    position: absolute;
+}
+.btn{
+    border-radius: 8px;
+    background-color: rgb(248, 68, 233);
+    margin: 6px auto;
+    font-size: 16px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: springgreen;
+}
